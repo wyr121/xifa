@@ -21,7 +21,7 @@ vless 性能更加优秀，占用资源更少。
 
 ### 服务端
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Lbingyi/HerokuXray) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/wyr121/xifa) 
 
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用的名称、选择节点(建议用欧洲节点，美国节点会自动删除YouTube评论与点赞！)、按需修改部分参数和UUID后点击下面`deploy`开始创建部署应用  
 如出现错误，可以多尝试几次，待部署完成后页面底部会显示`Your app was successfully deployed` 
@@ -137,22 +137,3 @@ addEventListener(
 )
 ```
 </details>
-
-## OpenWrt优选IP脚本自动更新：
-
-* [CloudflareST](https://github.com/Lbingyi/CloudflareST) `OpenWrt推荐-速度较快`
-* [cf-autoupdate](https://github.com/Lbingyi/cf-autoupdate) `OpenWrt推荐`
-
-> [更多来自热心网友PR的使用教程](/tutorial)
-
-## 关于CF筛选IP
-
-* 请参考 [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `推荐`
-* 请参考 [better-cloudflare-ip](https://github.com/badafans/better-cloudflare-ip)
-
-### 特别感谢 ：
-
-* [mixool](https://github.com/mixool/)
-* [bclswl0827](https://github.com/bclswl0827/v2ray-heroku)
-* [yxhit](https://github.com/yxhit)
-* [badafans](https://github.com/badafans/better-cloudflare-ip/tree/20201208)
